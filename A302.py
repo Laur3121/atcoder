@@ -9,3 +9,4 @@ c = math.floor(c)
 if  c*b == a:
     print(c)
 else: print(c+1)
+
