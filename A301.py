@@ -1,14 +1,36 @@
 a = int(input())
 s = input()
 
-print(s)
+""" print(s.count('T'))
 
-print(s.count('T'))
+n = s.count("T")
+print(n)
+ """
 
-for count,i in enumerate(s):
+countT = 0
+for i in s:
     if i == "T":
-        count + 1
+        countT += 1
 
-print(count) 
+countA = 0
+for i in s:
+    if i == "A":
+        countA += 1
+    
+
+
+
+if countT == countA:
+    if s[a-1] == ("T"):
+        print("A")
+    else: print("T")
+elif countT > countA:
+    print ("T")
+else: 
+    print("A")
+
+
+
+
 
 
