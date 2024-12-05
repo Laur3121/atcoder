@@ -1,3 +1,6 @@
+# 結局うまくいかなかったからGPTのやつ見る
+
+
 a=int(input())
 b = []
 c=[]
@@ -14,10 +17,10 @@ for i in range(a):
        n+=1
     break
 
-value = n+1 
+value = n+1
 
-for i in range(a):
-    if value!=a:
+for i in range(a-n-1):
+    if value>=n:
         print(b[value])
         value+=1
 
